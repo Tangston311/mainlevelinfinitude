@@ -6,5 +6,5 @@ RUN apt-get update && apt-get -y upgrade \
     && cd /mainlevelinfinitude \
     && cpanm Mojolicious::Lite CHI DateTime Try::Tiny Path::Tiny JSON IO::Termios inc::Module::Install \
     && cpanm --force WWW::Wunderground::API
-EXPOSE 8000
+EXPOSE 5001
 ENTRYPOINT /mainlevelinfinitude/docker/entrypoint.sh
