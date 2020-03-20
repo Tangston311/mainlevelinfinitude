@@ -1,1 +1,1 @@
-Branch of Infinitude to handle second thermostat in Docker
+Branch of Infinitude to handle first thermostat in Docker
